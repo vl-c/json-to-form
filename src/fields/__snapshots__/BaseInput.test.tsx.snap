@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseInput number shallow render 1`] = `
+<div
+  className="input-block"
+>
+  <label
+    className="input-label"
+    htmlFor="base"
+  >
+    BaseInput number
+  </label>
+  <input
+    className="input-field"
+    defaultValue={1000}
+    id="base"
+    name="base"
+    type="number"
+  />
+</div>
+`;
+
+exports[`BaseInput text shallow render 1`] = `
+<div
+  className="input-block"
+>
+  <label
+    className="input-label"
+    htmlFor="base"
+  >
+    BaseInput text
+  </label>
+  <input
+    className="input-field"
+    defaultValue="default value"
+    id="base"
+    name="base"
+    type="text"
+  />
+</div>
+`;

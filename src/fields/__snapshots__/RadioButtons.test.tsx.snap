@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButtons shallow render 1`] = `
+<div
+  className="input-block"
+>
+  <span
+    className="input-label"
+  >
+    RadioButtons
+  </span>
+  <div
+    className="input-radio"
+  >
+    <label
+      key="mail"
+    >
+      <input
+        defaultChecked={false}
+        disabled={false}
+        name="test"
+        type="radio"
+        value="mail"
+      />
+      mail
+    </label>
+    <label
+      key="phone"
+    >
+      <input
+        defaultChecked={false}
+        disabled={false}
+        name="test"
+        type="radio"
+        value="phone"
+      />
+      phone
+    </label>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea shallow render 1`] = `
+<div
+  className="input-block"
+>
+  <label
+    className="input-label"
+    htmlFor="test"
+  >
+    TextArea
+  </label>
+  <textarea
+    className="input-field"
+    defaultValue="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa eveniet id maxime nobis, tenetur."
+    id="test"
+    name="test"
+  />
+</div>
+`;

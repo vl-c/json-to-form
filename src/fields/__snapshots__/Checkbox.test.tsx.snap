@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxInput shallow render 1`] = `
+<div
+  className="input-block"
+>
+  <input
+    className="input-checkbox"
+    defaultChecked={true}
+    id="test"
+    name="test"
+    type="checkbox"
+  />
+  <label
+    htmlFor="test"
+  >
+    CheckboxInput
+  </label>
+</div>
+`;

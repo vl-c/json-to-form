@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form shallow render 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <BaseInput
+      id="first"
+      key="first"
+      label="count"
+      type="number"
+    />
+    <DateInput
+      id="datefield"
+      key="datefield"
+      label="DATE"
+      type="date"
+      value="2021-04-08T23:35:58.282Z"
+    />
+    <BaseInput
+      id="second"
+      key="second"
+      label="name"
+      type="text"
+      value="hello"
+    />
+    <TextArea
+      id="third"
+      key="third"
+      label="textarea"
+      type="textarea"
+      value="many text"
+    />
+    <CheckboxInput
+      id="cb"
+      key="cb"
+      label="checkbox"
+      type="checkbox"
+      value={true}
+    />
+    <RadioButtons
+      id="typeOfContact"
+      items={
+        Array [
+          Object {
+            "label": "mail",
+            "value": "mail",
+          },
+          Object {
+            "label": "phone",
+            "value": "phone",
+          },
+        ]
+      }
+      key="typeOfContact"
+      type="radio"
+    />
+    <div
+      className="input-buttons"
+    />
+  </form>
+</Fragment>
+`;
